@@ -2,7 +2,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     text-align: center;
-    background-color: rgb(243, 233, 233);
+    background-color: rgb(131, 192, 213);
 }
 section{
     text-align: center;
@@ -10,6 +10,7 @@ section{
 }
 .game--container{
     display: grid;
+    grid-gap: 2px;
     grid-template-columns: repeat(3,auto);
     width: 300px;
     margin: 50px auto;
@@ -22,12 +23,18 @@ section{
     border: 2px solid black;
     cursor: pointer;
     font-size: 60px;
+    background-color: aquamarine;
+}
+.cell:hover{
+    background-color: beige;
 }
 button{
     height: 50px;
     width: 100px;
-    border-radius: 50%;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 button:hover{
-    background-color: rgb(9, 224, 153);
+    background-color: rgb(99, 186, 157);
 }
